@@ -1,0 +1,7 @@
+Algorithm: AES-128-CBC
+IV: 1234567890abcdef1234567890abcdef
+Key Size: 128-bit (16 bytes)
+Key Derivation: MD5(password)
+Padding: PKCS7
+Known Plaintext: First 16 bytes are "CipherBreaker::"
+Password Hint: Contains "Challenge" and a year/number
